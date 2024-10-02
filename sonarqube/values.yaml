@@ -1,0 +1,4 @@
+postgresql:
+  postgresqlPassword: admin 
+  postgresqlDatabase: sonarqube
+
