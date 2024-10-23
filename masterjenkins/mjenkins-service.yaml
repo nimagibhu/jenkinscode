@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mjenkins
+  namespace: mas
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 31450
+      targetPort: 8080
+  selector:
+    app: mjenkins
+
