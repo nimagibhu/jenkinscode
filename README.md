@@ -1,8 +1,8 @@
 # jenkinscode
 ## kubernetes command that i know.
-kubectl get namespace  //to see all namespaces in the cluster
-kubectl get all -n namespace // to list all under a namespace
-kubectl delete deployment deployment_name -n namespace //inorder to delete a deployment and start fresh
+* kubectl get namespace  //to see all namespaces in the cluster
+* kubectl get all -n namespace // to list all under a namespace
+* kubectl delete deployment deployment_name -n namespace //inorder to delete a deployment and start fresh
 kubectl apply -f deployment.yaml // to deploy a deployment file
 kubectl create namespace name // to create a namespace
 kubectl delete namespace name // to delete a namspace
